@@ -1,1 +1,2 @@
-# bmp085
+BMP085
+Digital pressure sensor

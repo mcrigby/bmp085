@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>CutilloRigby.Device.BMP085</AssemblyName>
+    <RootNamespace>CutilloRigby.Device.BMP085</RootNamespace>
+    <Authors>Martin Cutillo-Rigby</Authors>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageId>CutilloRigby.Device.BMP085</PackageId>
+    <Product>CutilloRigby.Device.BMP085</Product>
+    <Version>1.0.0</Version>
+    <Description>BMP085 I2C Digital Temperature and Pressure Sensor</Description>
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <IsPackable>true</IsPackable>
+    <LangVersion>10.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CutilloRigby.Extensions.I2cDevice" Version="1.0.0" />
+    <PackageReference Include="Iot.Device.Bindings" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
